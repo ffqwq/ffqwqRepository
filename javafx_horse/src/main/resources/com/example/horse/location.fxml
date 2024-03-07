@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<BorderPane fx:id="BorderPaneRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.horse.Controller.LocationController">
+    <bottom>
+        <FlowPane alignment="CENTER" prefHeight="76.0" prefWidth="300.0" style="-fx-background-color: #f0f8ff;" BorderPane.alignment="CENTER">
+            <children>
+                <Button mnemonicParsing="false" onAction="#okButtonClick" prefHeight="35.0" prefWidth="75.0" text="确认">
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+               <FlowPane.margin>
+                  <Insets right="70.0" />
+               </FlowPane.margin>
+                </Button>
+            <Button mnemonicParsing="false" onAction="#onDownloadButtonAction" prefHeight="35.0" prefWidth="75.0" text="下载">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            </children>
+        </FlowPane>
+    </bottom>
+    <center>
+        <ScrollPane prefHeight="220.0" style="-fx-background-color: #FFFACD;" BorderPane.alignment="CENTER">
+            <content>
+                <TextFlow fx:id="textFLow" prefHeight="240.0" prefWidth="370.0" style="-fx-background-color: #FFFACD;" />
+            </content>
+        </ScrollPane>
+    </center>
+</BorderPane>

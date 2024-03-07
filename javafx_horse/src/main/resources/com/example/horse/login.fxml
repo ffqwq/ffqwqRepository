@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f0f8ff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.horse.Controller.LoginController">
+   <children>
+      <Button fx:id="enterButton" layoutX="238.0" layoutY="268.0" mnemonicParsing="false" onAction="#onEnterAction" prefHeight="42.0" prefWidth="107.0" text="开始" />
+      <TextField fx:id="rowId" layoutX="212.0" layoutY="87.0" prefHeight="35.0" prefWidth="177.0" />
+      <TextField fx:id="colId" layoutX="212.0" layoutY="164.0" prefHeight="35.0" prefWidth="177.0" />
+      <Label layoutX="153.0" layoutY="93.0" prefHeight="23.0" prefWidth="50.0" text="行数">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="153.0" layoutY="170.0" prefHeight="23.0" prefWidth="50.0" text="列数">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="useLabId" layoutX="475.0" layoutY="282.0" text="使用须知" />
+   </children>
+</AnchorPane>

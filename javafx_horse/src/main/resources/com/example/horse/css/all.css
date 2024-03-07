@@ -1,0 +1,93 @@
+.table-column{
+     -fx-color:#DAECFF;
+
+}
+.table-column .label{
+    -fx-font-color:#FFFFFF;
+}
+.button {
+    -fx-background-radius:10px;//圆角
+    -fx-background-color:  #DAECFF;
+    -fx-text-fill:#2f69ff;
+    -fx-border: none;//边框
+}
+.button:hover{
+    -fx-background-color:#00C3FF;
+    -fx-text-fill:#FFFFFF;
+}
+.text{
+    -fx-font-size:16px;
+    -fx-font-family:'Arial';
+}
+/*.header-panel {
+    -fx-background: linear-gradient(to bottom right, #A8EDEA,#FED6E3);
+}*/
+
+.table-row-cell:even {
+    -fx-background: #F4FFEE;
+}
+
+.table-row-cell:odd  {
+    -fx-background: #E6FFFE;
+}
+
+.table-row-cell:empty {
+    -fx-background: white;
+}
+.table-row-cell:selected{
+    -fx-background-color: #FFC7C7;
+}
+.table-row-cell:hover{
+    -fx-background-color: #FCE4D6;
+ }
+.tab-pane>*.tab-header-area>*.tab-header-background {
+    -fx-background-color: -fx-outer-border, -fx-text-box-border, white;
+}
+/* table-view上下按键 */
+.table-view .virtual-flow .scroll-bar: vertical .decrement-button .decrement-arrow,
+.table-view .virtual-flow .scroll-bar: vertical .increment-button .increment-arrow {
+    -fx-background-color: #FFF0F5;
+}
+
+/* table-view竖直滑动条 */
+.table-view > .virtual-flow > .scroll-bar:vertical,
+/* table-view水平滑动条 */
+.table-view > .virtual-flow > .scroll-bar:horizontal{
+    /*-fx-pref-height: 0;*/
+    /*-fx-background-insets: 0, 1 0 0 0;
+    -fx-padding: 0 -1 -1 -1;*/
+    -fx-background-color: #F0F8FF;/*背景颜色*/
+    -fx-color: #FFF0F5;/*滑块颜色*/
+}
+
+/*
+.table-view > .virtual-flow > .scroll-bar:vertical:hover,
+.table-view > .virtual-flow > .scroll-bar:horizontal:hover{
+    -fx-color: #B0E0E6;/*滑块颜色
+}*/
+
+.combo-box{
+     -fx-background-color:  #FFD784;
+}
+.combo-box:hover{
+     -fx-background-color:  #FFEBC1;
+}
+.choice-box{
+     -fx-background-color:  #FFD784;
+}
+.choice-box:hover{
+     -fx-background-color:  #FFEBC1;
+}
+.tab{
+    -fx-background-color:#E6F5FF;
+    -fx-background-radius:10px;//圆角
+}
+.tab:foucs{
+    -fx-background-color:#FFFFFF;
+}
+.date-picker{
+    -fx-color:#FFD784;
+}
+.date-picker:hover{
+    -fx-color:#FFEBC1;
+}
